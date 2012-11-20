@@ -1,0 +1,16 @@
+[variables]
+name = DB2RestRunner
+debug = 1
+sleep = 0.5
+
+[database]
+host = localhost
+username = user
+password = pass
+database = test
+sql = select name from testdb
+
+[restendpoint]
+url = http://api.testurl.com
+uri = /readthings
+params = name:row[0]
