@@ -2,3 +2,5 @@
 /.DS_Store
 /db2restrunner.ini
 db2restrunner.ini.deletedomains
+.project
+.pydevproject
