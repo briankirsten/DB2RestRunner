@@ -39,7 +39,7 @@ with conn:
 				paramVal = eval( paramArray[1].strip() )
 			else:
 				paramVal = paramArray[1].strip()
-			urlParams += '%s=%s&' % (paramArray[0].strip(), paramVal.strip() )
+			urlParams += '%s=%s&' % (paramArray[0].strip(), str(paramVal).strip() )
 		urlParams = urlParams[:-1]
 		params = "?%s" % urlParams
 		mainUrl = url + uri + params
