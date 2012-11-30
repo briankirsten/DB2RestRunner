@@ -1,4 +1,4 @@
-* DB2RestRunner *
+#**DB2RestRunner**
 
 Do you have a ton of little scripts hanging around that do something like this?
 
